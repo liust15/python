@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>今日头条</title>
+    {% load static %}
+    <!-- <link rel="stylesheet" href="{% static 'css/style.css' %}" type="text/css" media="all"> -->
+    <script type="text/javascript" src="{% static 'js/jquery-3.1.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/test.js' %}"></script>
+    <meta charset="UTF-8">
+    <title>实验设计</title>
+</head>
+<script>
+    $(document).ready(function () {
+        $.test();
+    });
+</script>
+<style>
+    .item{
+        height: 150px;
+        width: 600px;
+        float: left;
+        border: solid 1px rgb(8, 8, 8);
+    }
+    .item_title{
+        width: 300px;
+    }
+    .item div{
+        float: left;
+    }
+</style>
+<body>
+    <div id="toutiao">
+    </div>
+
+</body>
+
+</html>
